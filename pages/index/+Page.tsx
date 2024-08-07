@@ -9,7 +9,7 @@ export default function Index() {
       <div class="p-8 gap-8 flex flex-col h-screen max-w-5xl mx-auto text-white">
         <div class="p-8 gap-8 flex flex-col items-center text-center">
           <div class="rounded-full h-32 w-32">
-            <img src="/up/logo-round.png" class="rounded-full h-full w-full" />
+            <img src="/up/logo.png" class="rounded-full h-full w-full" />
           </div>
           <div class="flex flex-col items-center">
             <div class="text-4xl font-bold">We are Under Pressure!</div>
@@ -36,17 +36,17 @@ export default function Index() {
             <img src="sail/title.png" class="h-full w-full object-contain" />
           </TourneyButton>
           <TourneyButton name="ftiu" hover={hover()} setHover={setHover}>
-            <img src="ftiu/logo.png" class="h-full w-full object-contain" />
+            <img src="ftiu/title.png" class="h-full w-full object-contain" />
           </TourneyButton>
           <TourneyButton name="throne" hover={hover()} setHover={setHover}>
-            <img src="throne/logo.png" class="h-full w-full object-contain" />
+            <img src="throne/title.png" class="h-full w-full object-contain" />
           </TourneyButton>
           <TourneyButton name="prism" hover={hover()} setHover={setHover}>
             <img src="prism/title.png" class="h-full w-full object-contain" />
           </TourneyButton>
           <TourneyButton name="periphery" hover={hover()} setHover={setHover}>
             <div class="h-full w-full flex flex-col items-center justify-center text-3xl">
-              periphery
+              Periphery?
             </div>
           </TourneyButton>
         </div>
